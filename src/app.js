@@ -22,6 +22,9 @@ server.use((req, res, next) => {
   next();
 });
 
+server.get('/',function (req,res) {
+  res.send('Welcome to my Api')
+})
 server.use('/', routes);
 
 // Error catching endware.
