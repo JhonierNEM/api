@@ -1,7 +1,7 @@
 console.log('Hola Mundo');
 const server = require('./app');
 const { conection } = require('./db');
-const {upCitiesApi} = require('./ccontrollers/cities/index')
+const {upCitiesApi} = require('./controllers/cities/index')
 const {UploadProperties,UploadUsers} = require('./controllers/others/uploadData')
 
 const force = true
