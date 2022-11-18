@@ -43,7 +43,6 @@ module.exports = {
   Publication,
   Service,
   User, 
-  conection: sequelize,
-  PORT   
+  conection: sequelize,  
 };
 
