@@ -8,10 +8,10 @@ const force = true
 
 // Syncing all the models at once.
 conection.sync({ force:force }).then(() => {
-  server.listen(5000, async() => {
+  server.listen(3000, async() => {
     await upCitiesApi()
     force && UploadProperties()
     force && UploadUsers()
-    console.log(`%s listening at ${5000}`); 
+    console.log(`%s listening at ${3000}`); 
     });
 });
